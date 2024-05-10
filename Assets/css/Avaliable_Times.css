@@ -1,0 +1,120 @@
+.bxs-cart-alt:hover{
+    color:#af9d80;
+}
+.mb-4 {
+    color:#033135;
+}
+.display-5 {
+    color:#af9d80;
+}
+.btn-warning{
+    color:#ffff;
+    background-color:#af9d80;
+    border:none; 
+}
+.btn-lg {
+    background-color:#033135;
+}
+.p-3 .nav-link.text-black{
+    color: rgb(3, 56, 57) !important;
+}
+.p-3 .nav-link.text-warning{
+    color: rgb(156, 148, 124) !important;
+}
+.p-3 .nav-link.text-warning:hover{
+    color: rgb(3, 56, 57) !important;
+}
+.p-3 .nav-link.text-black:hover{
+    color: rgb(156, 148, 124) !important;
+}
+.btn.btn-secondary{
+    background-color:#033135;
+    color:#ffff;
+}
+.btn.btn-success{
+    background-color:#af9d80;
+    color:#ffff;
+}
+.btn.btn-danger{
+    background-color:#af9d80;
+    color:#ffff;
+}
+body {
+    direction: rtl;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    font-size:16px;
+}
+th, td {
+    text-align: center;
+    padding: 8px;
+    width:10%;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.disabled_button {
+    background-color:#1D3539 !important;
+    color:rgb(255, 255, 255);
+    border: 7px solid #1D3539;
+    text-decoration: none;
+    font-size:18px; border-radius: 7px; 
+    padding: 1px 7px !important;
+    cursor: pointer;
+}
+.disabled_button:disabled {
+    background-color:#4c4c4c !important;
+    border: 7px solid #4c4c4c;
+    cursor:auto;
+}
+.disabled_button:hover{
+    background-color:red !important;
+    border: 7px solid red;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.disabled_button:disabled:hover{
+    background-color: #4c4c4c !important;
+    border: 7px solid #4c4c4c;
+    cursor:auto;
+}
+.container5{
+    background-color: #EDEDED;
+    padding-top: 30px;
+    padding-bottom:30px;
+    border-radius:7px;
+    border: 1px solid #EDEDED;
+    margin-left:10px;
+    margin-right:10px;
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin: 0px;
+    margin-top: 6px;
+    display: block;
+    font-weight: bold;
+    font-family: 'Dubai', sans-serif; 
+}
+
+@media (max-width: 1500px) {
+    table {
+        width: 70%;
+    }
+}
+@media (max-width: 850px) {
+    table {
+        width: 90%;
+    }
+    
+}
+@media (max-width: 480px) {
+    table {
+        width: 100%;
+    }
+    
+}

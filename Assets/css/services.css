@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column1{
+    float: left;
+    width: 60%;
+    padding: 10px;
+    padding-top: 3%;
+    padding-right:3%;
+    height: 900px; /* Should be removed. Only for demonstration */
+    background-color: rgba(222, 232, 230, 0.37);
+  }
+
+  .column2 {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    padding-top: 10%;
+    height: 500px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+
+  #service{
+    background-image: url("background.png");
+    background-size: cover;
+    
+}
+
+  
+  @media (max-width: 800px) {
+    .form-inline input, .form-inline textarea{
+      margin: 10px 0;
+    }
+    
+    .form-inline {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+/* For iPhone X and similar-sized screens */
+@media screen and (max-width: 375px) {
+  /* Your responsive styles for iPhone X */
+}
+
+/* For iPhone 12 Pro and similar-sized screens */
+@media screen and (min-width: 390px) {
+  /* Your responsive styles for iPhone 12 Pro */
+}
+
+  textarea,#time,#file,#date {
+    float: right;
+    width: 100%;
+    min-height: 20px;
+    outline: none;
+    resize: none;
+    border: 1px solid grey;
+}
+
+label{
+    padding-right: 5px;
+}
+
+#timelabel{
+    margin-right: 10px;
+}
+
+p{
+    margin-right: 5px;
+    margin-left: 5px;
+}

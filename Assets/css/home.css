@@ -1,0 +1,302 @@
+/* hero section */
+
+.hero {
+    background-image: url("../images/firstImg.png");
+    height: 560px;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    color: #CFB99A !important;
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+.hero p {
+    color: #fff;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+
+/* about us section */
+
+.about-us {
+    background-color: #F4F4F4;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.about-us .title {
+    font-size: 1.5rem;
+    color: #1D3539;
+}
+
+.about-us .lead {
+    font-size: 1rem;
+    color: #a39e9e;
+}
+
+.about-us .align-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.about-us img {
+    width: 400px;
+    height: 300px;
+}
+
+
+/* products section */
+
+.products {
+    margin-bottom: 3rem;
+}
+
+.products .card {
+    align-items: center;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    height: 100%;
+}
+
+.products a {
+    text-decoration: none;
+}
+
+.products h1 {
+    color: #1D3539;
+    font-size: 3rem;
+}
+
+.products .card h4 {
+    color: #1D3539;
+}
+
+.products .card p {
+    color: #a39e9e;
+    padding: 0 13px;
+}
+
+.products .card i {
+    color: #cfb99a;
+    font-size: 100px;
+}
+
+
+/* consultations section */
+
+.consultations {
+    background-image: url("../images/secondImg.png");
+}
+
+.consultations h1 {
+    color: #1D3539 !important;
+    font-size: 3rem;
+}
+
+.consultations p {
+    color: #a39e9e;
+    line-height: 30px;
+}
+
+.consultations button {
+    background-color: #CFB99A;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.consultations button:hover {
+    background-color: #1D3539;
+    color: #fff;
+}
+
+
+/* contact us section */
+
+.contact-us {
+    margin: 3rem 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.contact-us .container {
+    margin: 3rem 0 !important;
+    width: 80%;
+    border-radius: 6px;
+    padding: 30px 60px 40px 40px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.5);
+}
+
+.contact-us .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-us .content .left-side {
+    width: 25%;
+    height: 100%;
+    position: relative;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content .left-side .details {
+    margin: 14px;
+    text-align: center;
+}
+
+.content .left-side .details i {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: rgb(255, 193, 7);
+}
+
+.content .left-side .details .topic {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.content .left-side .details .text-one {
+    font-size: 14px;
+    color: #afafb6;
+}
+
+.contact-us .content .right-side {
+    width: 75%;
+    margin-left: 75px;
+}
+
+.content .right-side .topic-text {
+    font-size: 35px !important;
+    font-weight: 600;
+    color: rgb(255, 193, 7);
+}
+
+.right-side .input-box {
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+}
+
+.right-side .input-box textarea,
+.right-side .input-box input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: #f0f1f8;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 0 15px;
+    resize: none;
+}
+
+.right-side .message-box {
+    min-height: 110px;
+}
+
+.right-side .button {
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.right-side .button input[type="button"] {
+    color: #ffffff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: rgb(255, 193, 7);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button input[type="button"]:hover {
+    background: rgb(255, 213, 87);
+}
+
+@media (max-width:950px) {
+    .contact-us .container {
+        width: 90%;
+        padding: 30px 35px 40px 35px;
+    }
+}
+
+@media (max-width:820px) {
+    .contact-us .container {
+        margin: 40px 0;
+        height: 100%;
+    }
+    .container .content {
+        flex-direction: column-reverse;
+    }
+    .container .content .left-side {
+        width: 100%;
+        flex-direction: row;
+        margin-top: 40px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .container .content .right-side {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width:1000px) {
+    .about-us img {
+        height: 200px;
+        width: 300px;
+    }
+}
+
+@media (max-width:650px) {
+    .consultations h1,
+    .products h1,
+    .hero h1 {
+        font-size: 1.75rem;
+    }
+    .consultations p,
+    .hero p {
+        font-size: 0.9rem;
+    }
+    .about-us .title {
+        font-size: 1.25rem;
+    }
+    .about-us .lead {
+        font-size: 0.75rem;
+    }
+}
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.info-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}

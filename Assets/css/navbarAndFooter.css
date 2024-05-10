@@ -1,0 +1,147 @@
+body {
+    direction: rtl;
+    font-family: 'Almarai', sans-serif;
+}
+
+
+/* header section */
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .btn {
+    background-color: #1D3539;
+    border-radius: 6px;
+    color: white;
+}
+
+header .btn:hover {
+    background-color: #CFB99A;
+}
+
+.nav-scroller .nav-item {
+    color: #1D3539 !important;
+}
+
+.nav-scroller .active {
+    color: #CFB99A !important;
+}
+
+.head .nav {
+    flex-wrap: nowrap;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.dropdown-item {
+    color: #1D3539;
+}
+
+.dropdown-item:hover {
+    color: #fff;
+    background-color: #CFB99A;
+}
+
+/* footer section */
+
+footer .col {
+    padding-right: 20px;
+}
+
+footer .contant {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1D3539;
+    color: #CFB99A;
+    padding-top: 10px;
+}
+
+footer .nav {
+    padding-right: 0px;
+    color: white !important;
+    justify-content: right;
+}
+
+footer .nav-item,
+footer .nav-link {
+    color: white !important;
+}
+
+footer .icon {
+    font-size: 20px;
+    color: #CFB99A;
+    margin-left: 0.6rem;
+}
+
+footer h5 {
+    margin-bottom: 20px;
+}
+
+footer .copyRight {
+    background-color: #1D3539;
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 0px !important;
+}
+
+footer .bena {
+    color: #a39e9e;
+    font-size: small;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+@media (max-width:950px) {
+    .head .nav {
+        font-size: 0.9rem !important;
+    }
+    header .btn,
+    .dropdown-item {
+        font-size: 0.7rem;
+    }
+    footer .nav-item,
+    footer .nav-link {
+        font-size: 0.9rem !important;
+    }
+}
+
+@media (max-width:820px) {
+    .head .nav {
+        font-size: 0.8rem !important;
+    }
+    header .btn ,
+    .dropdown-item{
+        font-size: 0.65rem;
+    }
+    footer .nav-item,
+    footer .nav-link {
+        font-size: 0.8rem !important;
+    }
+}
+
+@media (max-width:430px) {
+    .head .nav {
+        font-size: 0.6rem !important;
+    }
+    header .btn,
+    .dropdown-item {
+        font-size: 0.45rem;
+    }
+    footer .nav-item,
+    footer .nav-link {
+        font-size: 0.6rem !important;
+    }
+    footer .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
